@@ -1,0 +1,36 @@
+Questions on Bash:
+Complete the following questions using bash script on your terminal/GitBash
+1. Use the terminal/GitBash to navigate to your “Evangadi” folder location that you have
+on your Desktop
+
+ANS:    I Open the Terminal or GitBash and navigate to my "Evangadi" folder location on my Desktop:
+cd ~/Desktop/Evangadi
+
+2. In your “Evangadi” folder, create a folder called “BashPractice”
+
+  ANS:   mkdir BashPractice
+
+3. In your “BashPractice” folder, create another folder called “BashTest”
+
+ANS:  
+  ANS:   mkdir BashPractice/BashTest
+  
+4. In your “BashPractice”folder, create a text file called my “myTextFile.txt”
+
+ANS:   touch BashPractice/myTextFile.txt
+
+5. Add the text "Hello bash" in the “myTextFile.txt” file using the "echo" command
+
+ANS:   echo "Hello bash" >> BashPractice/myTextFile.txt
+
+6. Rename the “myTextFile.txt” file name to “myTextPractice.txt”
+
+ANS:   mv BashPractice/myTextFile.txt BashPractice/myTextPractice.txt
+
+7. Change the permission of“myTextPractice.txt” file to 776
+
+ANS:   chmod 776 BashPractice/myTextPractice.txt
+
+8. Delete the “BashTest” folder along with the text file inside it
+
+ANS:  rm -r BashPractice/BashTest
